@@ -1,0 +1,8 @@
+balance = 50
+price = 6
+amount = balance // price
+change = balance % amount
+#print the message
+print(f"The total USB sticks the girl can buy is : {amount}")
+#print the message
+print(f"The money left after buying the USB sticks : {change}")
