@@ -1,0 +1,6 @@
+a = ["Jonathan", "Eugine", "Jolo"]
+#print the message
+print(f"{a[2]} can't come to the dinner")
+a2 = input("Enter another name: ")
+#print the message
+print(f"Good evening, {a2.title()}. I wish to invite you to a simple dinner. The dinner is scheduled to take place at Philippine House on 10/31/2022 at 7 PM. It would be a nice to have you on this day.")
