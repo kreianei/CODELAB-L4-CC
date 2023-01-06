@@ -1,0 +1,15 @@
+from http.client import HTTP_VERSION_NOT_SUPPORTED
+from multiprocessing.context import SpawnContext
+
+
+a = "Bath Spa"
+b = "University"
+c = " ".join([a, b])
+"""
+Join all items in a tuple into a string
+
+>> Bath Spa University
+
+"""
+#print the message
+print(c)
