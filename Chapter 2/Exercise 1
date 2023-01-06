@@ -1,0 +1,7 @@
+a = "Hello, world"
+#print the message
+print(a)
+
+a = "Yo, wassup"
+#print message
+print(a)
