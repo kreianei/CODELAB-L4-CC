@@ -1,0 +1,13 @@
+#+= operator lets you add two values together and assign the resultant value to a variable. prompt is just a variable
+prompt = "\nWhat topping would you like on your pizza?"
+prompt += "\nEnter 'quit' when you are finished: "
+
+#using while True to run the loop forever
+while True:
+    topping = input(prompt)
+    if topping != 'quit':
+        #print the message. f-string is another string used in Python
+        print(f"  Added {topping} to your pizza.")
+    else:
+        #to break the loop
+        break
