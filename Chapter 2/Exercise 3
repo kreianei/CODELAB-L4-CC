@@ -1,0 +1,8 @@
+a = " Maxene Januelle\n\tGaspay Salon "
+print(a)
+#Remove spaces to the left of the string
+print(a.lstrip())
+#Remove spaces to the right of the string
+print(a.rstrip())
+#Removes or truncates the given characters from the beginning and the end of the original string
+print(a.strip())
