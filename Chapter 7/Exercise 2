@@ -1,4 +1,4 @@
-#def is used to define a function and display_message is our function here
+#def is used to define a function and favorite_book(title) is our function here
 def favorite_book(title):
     """Display a message about someone's favorite book."""
     #print the message
