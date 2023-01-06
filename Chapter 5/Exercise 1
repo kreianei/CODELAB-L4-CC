@@ -1,0 +1,16 @@
+#your dictionary
+person = {
+    'first_name': 'maxene',
+    'last_name': 'salon',
+    'age': 18,
+    'city': 'abu dhabi',
+    }
+
+#print the message
+print(person['first_name'])
+#print the message
+print(person['last_name'])
+#print the message
+print(person['age'])
+#print the message
+print(person['city'])
