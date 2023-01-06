@@ -1,4 +1,4 @@
-#def is used to define a function and display_message is our function here
+#def is used to define a function and make_shirt is our function here
 def make_shirt(size, message):
     """Summarize the shirt that's going to be made."""
     #print the message
