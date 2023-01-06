@@ -1,0 +1,17 @@
+#your list
+sandwich_orders = ['veggie', 'grilled cheese', 'turkey', 'roast beef']
+finished_sandwiches = []
+
+#while loop helps execute a set of statements as long as a condition is true
+while sandwich_orders:
+    current_sandwich = sandwich_orders.pop()
+    #print your message
+    print(f"I'm working on your {current_sandwich} sandwich.")
+    #append adds a single item or object to the variable finished_sandwiches
+    finished_sandwiches.append(current_sandwich)
+
+print("\n")
+#for loop is used for iterating over a sequence
+for sandwich in finished_sandwiches:
+    #print the message
+    print(f"I made a {sandwich} sandwich.")
