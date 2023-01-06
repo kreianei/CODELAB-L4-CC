@@ -1,0 +1,10 @@
+#your list
+alien_color = 'green', 'red', 'blue'
+
+#if-else statement
+if alien_color == 'green':
+    #print the message
+    print("You just earned 5 points!")
+else:
+    #print the message
+    print("You just earned 10 points!")
