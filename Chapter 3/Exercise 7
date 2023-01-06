@@ -1,0 +1,38 @@
+#print a list of places you wanted to visit
+a = ["Madrid", "Maldives", "Switzerland", "USA", "Japan", "Canada", "United Kingdom"]
+#print variable
+print(a)
+#sort the list alphabetically
+a.sort()
+#print the new sorted list
+print(a)
+print("\n")
+
+#print a list of places you wanted to visit
+a = ["Madrid", "Maldives", "Switzerland", "USA", "Japan", "Canada", "United Kingdom"]
+print(a)
+#print the list in reverse alphabetical order without changing the order of the origial list (the now sorted list)
+a.sort(reverse=True)
+print(a)
+print("\n")
+
+#print a list of places you wanted to visit
+a = ["Madrid", "Maldives", "Switzerland", "USA", "Japan", "Canada", "United Kingdom"]
+print(a)
+#to change the order of your list
+a.reverse()
+print(a)
+#to change the order of your list again
+a.reverse()
+print(a)
+print("\n")
+
+#print a list of places you wanted to visit
+a = ["Madrid", "Maldives", "Switzerland", "USA", "Japan", "Canada", "United Kingdom"]
+print(a)
+#change your list so it’s stored in alphabetical order
+a.sort()
+print(a)
+#change your list so it’s stored in reverse alphabetical order
+a.sort(reverse=True)
+print(a)
