@@ -1,0 +1,16 @@
+def main():
+# print the first line
+print("Twinkle, twinkle, little star,")
+# print the second line
+print("How I wonder what you are!")
+# print the third line
+print("Up above the world so high,")
+# print the fourth line
+print("Like a diamond in the sky.")
+# print the fifth line
+print("Twinkle, twinkle, little star,")
+# print the sixth line
+print("How I wonder what you are")
+
+call the main function
+main()
