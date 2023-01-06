@@ -1,0 +1,3 @@
+names = "Fatima", "Gian", "Manly"
+#print the message
+print(*names, sep = "\n")
