@@ -1,0 +1,42 @@
+pets = []
+
+#your dictionary
+pet = {
+    'animal type': 'cat',
+    'name': 'mimi',
+    'owner': 'ronald',
+    'weight': '10 pounds',
+    'eats': 'fish',
+}
+#append adds a single item or object to the variable pets
+pets.append(pet)
+
+#your dictionary
+pet = {
+    'animal type': 'dog',
+    'name': 'doggy',
+    'owner': 'rufrian',
+    'weight': '65kg',
+    'eats': 'meat',
+}
+#append adds a single item or object to the variable pets
+pets.append(pet)
+
+#your dictionary
+pet = {
+    'animal type': 'bird',
+    'name': 'peso',
+    'owner': 'ian',
+    'weight': '40 grams',
+    'eats': 'worms',
+}
+#append adds a single item or object to the variable pets
+pets.append(pet)
+
+#for loop statement
+for pet in pets:
+    #print the message
+    print(f"\nHere's what I know about {pet['name'].title()}:")
+    for key, value in pet.items():
+        #print the information of the pets
+        print(f"\t{key}: {value}")
