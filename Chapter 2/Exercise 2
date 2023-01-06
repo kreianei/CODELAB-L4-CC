@@ -1,0 +1,3 @@
+a = "Armin Arlert from Attack On Titan once said, 'People, who can not throw something important away, can never hope to change anything.'"
+#print the message
+print(a)
