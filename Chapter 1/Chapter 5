@@ -1,0 +1,8 @@
+import math as M  
+#returns a floating-point number for a provided number or string
+Radius = float (input ("Please enter the radius of the given circle: "))
+print("\n")
+#you can search for the formula in google. by the way, this is our string. the floating number goes here
+area_of_the_circle = M.pi* Radius * Radius
+#print the desired message and our string   
+print ("The area of the given circle is: ", area_of_the_circle)  
