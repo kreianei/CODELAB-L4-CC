@@ -1,0 +1,10 @@
+a = ["Jonathan", "Eugine", "Jolo"]
+print("\n")
+#print the message
+print(f"Good evening, {a[0]}. I wish to invite you to a simple dinner. The dinner is scheduled to take place at Philippine House on 10/31/2022 at 7 PM. It would be a nice to have you on this day.")
+print("\n")
+#print the message
+print(f"Good evening, {a[1]}. I wish to invite you to a simple dinner. The dinner is scheduled to take place at Philippine House on 10/31/2022 at 7 PM. It would be a nice to have you on this day.")
+print("\n")
+#print the message
+print(f"Good evening, {a[2]}. I wish to invite you to a simple dinner. The dinner is scheduled to take place at Philippine House on 10/31/2022 at 7 PM. It would be a nice to have you on this day.")
