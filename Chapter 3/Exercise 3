@@ -1,0 +1,11 @@
+import random
+#using while True for infinite loop
+while True:
+    car = input("Your favorite mode of transportation: ")
+    a = [f"I would like to ride a {car}", f"A car such as a {car} is a must goal to have", f"This {car} is so cool!", f"It must be a dream to have a {car}"]
+    if car == "quit":
+     #to break the loop
+         break
+    else:
+     #print the message a
+         print(random.choice(a))
