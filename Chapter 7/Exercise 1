@@ -1,0 +1,8 @@
+#def is used to define a function and display_message is our function here
+def display_message():
+    """Display a message about what I'm learning."""
+    msg = "I'm learning how to code."
+    #print the message
+    print(msg)
+
+display_message()
