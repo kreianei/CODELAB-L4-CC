@@ -1,0 +1,6 @@
+import datetime
+now = datetime.datetime.now()
+#print message for date and time
+print("The current date and time: ")
+#print the current date and time
+print(now.strftime("%D-%T"))
