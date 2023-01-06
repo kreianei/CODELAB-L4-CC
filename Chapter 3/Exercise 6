@@ -1,0 +1,25 @@
+#print the message
+print("Due to your new dinner table not arriving in time for dinner, you only have space for two (2) guest")
+#your list
+a = ["Jonathan", "Eugine", f"{a.title()}"]
+print(a)
+#removes an item at the specified index from the list
+pop = a.pop()
+#print the messages
+print(a)
+print(f"Due to an unexpected occurence, I would like to express my sincerest apology to {pop} regarding the scheduled dinner in cancelling the supposed dinner with you.")
+print(f"Hello, {a[0]}, you are still invited")
+print(f"Hello, {a[1]}, you are still invited")
+#incase you're wondering what's the "\n" is for, it is a type of escape character that will create a new line when used. it's basically just enter and leaves a blank space in the line when you run the program
+print("\n")
+
+#print the message
+print("List before calling del: ")
+#print the variable
+print(a)
+
+#primarily used to delete objects in Python and here we delete variable "a"
+del a
+
+#print variable
+print(a)
