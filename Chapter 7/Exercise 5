@@ -1,0 +1,11 @@
+#def is used to define a function and describe_city is our function here
+def describe_city(city, country='chile'):
+    """Describe a city."""
+    #our variable with f-strings
+    msg = f"{city.title()} is in {country.title()}."
+    #print the message
+    print(msg)
+
+describe_city('santiago')
+describe_city('reykjavik', 'iceland')
+describe_city('punta arenas')
