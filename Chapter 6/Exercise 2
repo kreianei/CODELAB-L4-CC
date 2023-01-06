@@ -1,0 +1,23 @@
+##+= operator lets you add two values together and assign the resultant value to a variable. prompt is just a variable if you might get confused
+prompt = "How old are you?"
+prompt += "\nEnter 'quit' when you are finished. "
+
+#using while True to run the loop forever
+while True:
+    age = input(prompt)
+    if age == 'quit':
+        #to break the loop
+        break
+    #note that int is used only for numbers. inputting letters might result to an error or wont work
+    age = int(age)
+
+    #if-elif-else chain 
+    if age < 3:
+        #print your message
+        print("  You get in free!")
+    elif age < 13:
+        #print your message
+        print("  Your ticket is $10.")
+    else:
+        #print your message
+        print("  Your ticket is $15.")
