@@ -1,0 +1,9 @@
+a = "Fatima"
+b = "Gian"
+c = "Manly"
+#print the message with a as string
+print("Hello,",a ,"good morning")
+#print the message with b as string
+print("Hello,",b ,"good morning")
+#print the message with c as string
+print("Hello,",c ,"good morning")
