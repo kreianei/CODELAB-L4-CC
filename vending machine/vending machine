@@ -1,0 +1,61 @@
+# Vending machine program
+
+# Set up the initial balance and available products
+balance = 0
+products = {"chips": 1.50, "candy": 0.75, "soda": 2.00}
+
+def display_products():
+  # Print the available products and their prices
+  print("Available products:")
+  for product, price in products.items():
+    print(f"{product}: ${price}")
+
+def check_balance():
+  # Print the current balance
+  print(f"Current balance: ${balance}")
+
+def add_funds():
+  # Allow the user to add funds to their balance
+  global balance
+  amount = float(input("Enter amount to add: $"))
+  balance += amount
+  print(f"Updated balance: ${balance}")
+
+def make_purchase():
+  # Allow the user to make a purchase
+  global balance
+  product = input("Enter product to purchase: ")
+  if product in products:
+    cost = products[product]
+    if cost <= balance:
+      balance -= cost
+      print("Thank you for your purchase!")
+      print(f"Remaining balance: ${balance}")
+    else:
+      print("Insufficient balance.")
+  else:
+    print("Sorry, that product is not available.")
+
+def run_vending_machine():
+  # Run the vending machine program
+  while True:
+    print("Welcome to the vending machine! What would you like to do?")
+    print("1. Display products")
+    print("2. Check balance")
+    print("3. Add funds")
+    print("4. Make a purchase")
+    print("5. Quit")
+    choice = input("> ")
+    if choice == "1":
+      display_products()
+    elif choice == "2":
+      check_balance()
+    elif choice == "3":
+      add_funds()
+    elif choice == "4":
+      make_purchase()
+    elif choice == "5":
+      break
+
+# Run the program
+run_vending_machine()
